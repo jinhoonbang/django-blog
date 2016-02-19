@@ -1,9 +1,7 @@
-<!--DOCTYPE html -->
-<html>
-<head>
-  <title></title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
+
 <h1>{{title}} template is Working</h1>
 {% for obj in objects_list %}
 
@@ -22,5 +20,4 @@
 
 {% endfor %}
 
-</body>
-</html>
+{% endblock content %}
